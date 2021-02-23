@@ -1,0 +1,77 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.11",
+    "@apollo/react-hooks": "^4.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-http": "^1.5.17",
+    "apollo-server-express": "=2.9.7",
+    "bcryptjs": "=2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "=8.2.0",
+    "easygraphql-format-error": "0.0.3",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-jwt": "=5.3.1",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
+    "jquery": "^3.5.1",
+    "jsonwebtoken": "=8.5.1",
+    "jwt-decode": "^3.1.2",
+    "lodash": "4.17.15",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.16",
+    "nodemon": "^2.0.7",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "sequelize": "4.39.0",
+    "sqlite3": "4.1.0",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "=1.19.4",
+    "sequelize-cli": "=4.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "nodemon src/server.js",
+    "migrate": "sequelize db:migrate"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
